@@ -92,11 +92,9 @@
 
                 col.innerHTML = `
             <div class="card h-100 shadow-sm">
-                <div class="card-body">
-                    <h5 class="card-title">${item.name}</h5>
-                    <p class="card-text mb-1"><strong>Category:</strong> ${item.category}</p>
-                    <p class="card-text mb-1"><strong>Quantity:</strong> ${item.quantity}</p>
-                    <p class="card-text fw-bold"><strong>Price:</strong> $${item.price.toFixed(2)}</p>
+                <div class="card-body text-center">
+                    <p class="card-title fw-bold">${item.name}</p>
+                    <p class="card-text">Price: $${item.price.toFixed(2)}</p>
                 </div>
             </div>
         `;
